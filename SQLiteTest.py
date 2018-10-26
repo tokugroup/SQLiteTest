@@ -29,6 +29,7 @@ def main():
             (3,"yamada",19801010),
             (4,"sato",19450411),
             (5,"tanaka",20001121),
+            (7,"seko",19500607),
             ]
     #複数データの挿入
     cursor.executemany(p,data)
